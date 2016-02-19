@@ -1,7 +1,7 @@
 # FlowTorrent
 A class project demonstrating basic concept of peer to peer downloading
 
-OVERVIEW
+# OVERVIEW
 
 This is FlowTorrent, a simple bittorrent-like demonstration that illustrates
   the use of Java sockets, threading, and peer to peer networking. It contains
@@ -9,11 +9,11 @@ This is FlowTorrent, a simple bittorrent-like demonstration that illustrates
   specifying a test network, and torrent (NFO) files to allow multiple files
   sharing and checking for hash correctness.
 
-USAGE
+# USAGE
   java FlowTorrent [chunk|execute|unchunk] options...
   java FlowTorrent --help
 
-DIRECTORY STRUCTURE
+# DIRECTORY STRUCTURE
 
 ChunkCommand.class
   Comand line parameter description for using the chunking tool.
@@ -97,8 +97,14 @@ src/
 UnchunkCommand.class
   Comand line parameter description for using the unchunking tool.
 
+config.txt
+  Initial configuration for project demonstration.
+  
+test.bin:
+  Generic test file used for the project demonstration.
 
-EXAMPLE
+
+# EXAMPLE
   java FlowTorrent execute -config config.txt -dir test/s/ -pn 0 -server
   java FlowTorrent execute -config config.txt -dir test/c1/ -pn 1 -rhost 127.0.0.1
   java FlowTorrent execute -config config.txt -dir test/c2/ -pn 2 -rhost 127.0.0.1
