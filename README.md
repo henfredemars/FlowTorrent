@@ -10,8 +10,10 @@ This is FlowTorrent, a simple bittorrent-like demonstration that illustrates
   sharing and checking for hash correctness.
 
 # USAGE
+```
   java FlowTorrent [chunk|execute|unchunk] options...
   java FlowTorrent --help
+```
 
 # DIRECTORY STRUCTURE
 ```
