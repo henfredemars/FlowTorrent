@@ -105,7 +105,8 @@ test.bin:
 ```
 
 # EXAMPLE
+```
   java FlowTorrent execute -config config.txt -dir test/s/ -pn 0 -server
   java FlowTorrent execute -config config.txt -dir test/c1/ -pn 1 -rhost 127.0.0.1
   java FlowTorrent execute -config config.txt -dir test/c2/ -pn 2 -rhost 127.0.0.1
-
+```
