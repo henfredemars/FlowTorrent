@@ -14,7 +14,7 @@ This is FlowTorrent, a simple bittorrent-like demonstration that illustrates
   java FlowTorrent --help
 
 # DIRECTORY STRUCTURE
-
+```
 ChunkCommand.class
   Comand line parameter description for using the chunking tool.
 
@@ -102,7 +102,7 @@ config.txt
   
 test.bin:
   Generic test file used for the project demonstration.
-
+```
 
 # EXAMPLE
   java FlowTorrent execute -config config.txt -dir test/s/ -pn 0 -server
